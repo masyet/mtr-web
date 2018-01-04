@@ -27,7 +27,9 @@ virtualenv env
 source env/bin/activate
 pip install Flask-Sockets gunicorn
 ```
-
+if show 
+Exception: Please install gevent 1.1 for Python 2.6
+pip install gevent == 1.1 
 
 ## Usage
 
