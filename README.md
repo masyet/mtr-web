@@ -17,10 +17,17 @@ http://trace.hamwan.net/
 sudo apt-get install mtr
 git clone https://github.com/kd7lxl/mtr-web.git
 cd mtr-web
+
+--For CentOS 6 64bit
+yum install python-setuptools
+yum install python-pip
+pip install virtualenv
+--
 virtualenv env
 source env/bin/activate
 pip install Flask-Sockets gunicorn
 ```
+
 
 ## Usage
 
